@@ -1,0 +1,24 @@
+:root {
+  --shiki-color-text: theme('colors.white');
+  --shiki-token-constant: theme('colors.cyan.300');
+  --shiki-token-string: theme('colors.cyan.300');
+  --shiki-token-comment: theme('colors.zinc.500');
+  --shiki-token-keyword: theme('colors.sky.300');
+  --shiki-token-parameter: theme('colors.pink.300');
+  --shiki-token-function: theme('colors.violet.300');
+  --shiki-token-string-expression: theme('colors.cyan.300');
+  --shiki-token-punctuation: theme('colors.zinc.200');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.newsletter {
+  background-color: #151718;
+  border-radius: 6px;
+  box-shadow:  rgba(254, 88, 254, 0.1) 0px 0px 0px 2px,  rgba(254, 102, 0, 0.52) -15px 0px 30px -15px,  rgba(255, 28, 172, 0.608) 0px 0px 30px -15px,  rgba(111, 82, 255, 0.733) 15px 0px 30px -15px;
+  box-sizing: border-box;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+}

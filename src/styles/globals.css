@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.bgGrid {
+    background-color: rgba(255, 255, 255, 0.12)
+}
+
+.radialGrid {
+    background: radial-gradient(800px circle 50%, rgba(255, 255, 255, 0.3), transparent 40%);
+}
+
+.mesh {
+    background-color: rgb(168, 85, 247);
+    background-image: radial-gradient(at 15% 100%, rgb(13, 148, 136) 0, transparent 53%), radial-gradient(at 53% 94%, rgb(14, 116, 144) 0, transparent 57%), radial-gradient(at 0% 52%, rgb(14, 165, 233) 0, transparent 60%), radial-gradient(at 0% 71%, rgb(79, 70, 229) 0, transparent 100%), radial-gradient(at 83% 11%, rgb(134, 25, 143) 0, transparent 85%);
+}
+
