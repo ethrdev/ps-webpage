@@ -5,28 +5,28 @@ import { useTranslation } from 'react-i18next'
 const people = [
     {
         name: 'Mario "livinmydream1" Mosböck',
-        role: 'Champion of the SCOOP Main Event 2021 for $839,000 and MTT Highstakes Player',
+        role: '',
         imageUrl:
             '/mosboeck.png',
         bio: 'Being able to see the GTO solution to any question I had during a session right after, was one of the biggest improvement for my career.',
     },
     {
         name: 'Courtney "Courtiebee" Gee',
-        role: 'Member of Team Partypoker, MTT midstakes grinder and streamer',
+        role: '',
         imageUrl:
             '/courty.png',
         bio: 'Gone are the days of wanting to review a hand and having to wait minutes or even hours to get a solution. Poker Scientist is easy to use and extremely convenient.',
     },
     {
         name: 'Torsten "Jektiss" Brinkmann',
-        role: '2nd in EPT Grand Final for $1.3 Million and NL500 Player',
+        role: '',
         imageUrl:
             '/Jektiss.png',
         bio: 'For me Poker Scientist is the most efficient way to improve my game. It is fast and simple. All I need!',
     },
     {
         name: 'Nick "eastyy22" Eastwood',
-        role: 'Member of 888Poker Team, Twitch streamer and YouTuber',
+        role: '',
         imageUrl:
             '/eastyyy.png',
         bio: 'Poker Scientist has been a game changer for my study. Without a lot of spare time, it is invaluable to me to have a study tool that is so fast, easy and effective.',
@@ -39,7 +39,7 @@ export function Promoter() {
     return (
 
         <div className="px-4 pt-16 lg:pt-32 pb-8 lg:pb-16 mx-auto lg:max-w-7xl lg:px-8">
-           
+
             <ul
                 role="list"
                 className="grid max-w-2xl grid-cols-1 mx-auto gap-x-6 gap-y-12 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-12 xl:max-w-none"
