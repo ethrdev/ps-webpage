@@ -33,9 +33,6 @@ const Home: NextPage = () => {
         <FeaturesSecondary />
         <FeaturesTertiary />
         <Features />
-        <NewsletterForm />
-        <Promoter />
-        <CTA />
         <FooterWithNewsletter />
       </div>
     </>
